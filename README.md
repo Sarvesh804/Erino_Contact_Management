@@ -54,8 +54,8 @@ A full-stack Contact management application built with React, Node.js, Express, 
    DB_NAME=contact_manager
 
 5. Apply the database schema to initialize the tables:
-  ```bash
-  psql -U youruser -d contact_manager -f db/schema.sql
+   ```bash
+   psql -U youruser -d contact_manager -f db/schema.sql
 
 6. Start the backend server:
    ```bash
