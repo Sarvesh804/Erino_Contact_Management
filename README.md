@@ -6,7 +6,7 @@ A full-stack Contact management application built with React, Node.js, Express, 
 
 ### Demo Preview
 
-![Demo](./ErinoTaskDemo.gif)
+![Demo](https://imgur.com/cRppdas)
 
 ---
 
