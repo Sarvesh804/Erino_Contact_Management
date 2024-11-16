@@ -4,6 +4,12 @@ A full-stack Contact management application built with React, Node.js, Express, 
 
 ---
 
+### Demo Preview
+
+![Demo](./Erino%20Task%20Demo%20(1).gif)
+
+---
+
 ## 🚀 Features
 1. **Task Management**: Add, edit, delete, and view tasks.
 2. **Contact Management**: Manage a list of contacts.
@@ -31,6 +37,9 @@ A full-stack Contact management application built with React, Node.js, Express, 
    ```bash
    git clone https://github.com/Sarvesh804/Erino_Contact_Management.git
    cd Erino_Contact_Management
+
+
+
 
 ### Backend Setup
 1. Navigate to the server folder:
@@ -63,6 +72,7 @@ A full-stack Contact management application built with React, Node.js, Express, 
 
 
 
+
 ### Frontend Setup
 1. Navigate to the client folder:
    ```bash
@@ -77,6 +87,8 @@ A full-stack Contact management application built with React, Node.js, Express, 
    ```bash
    npm start
 
+---
+
 
 
 ## 🧠 Challenges and Solutions
@@ -89,12 +101,17 @@ A full-stack Contact management application built with React, Node.js, Express, 
 3. Challenge: Implementing edit functionality with pre-populated data.
 -  Solution: Used useEffect to set initial form data while avoiding infinite render loops.
 
+---
+
 
 
 ## 🏗️ Major Technical Decisions
 - React for UI Development: Ensured modularity and fast performance.
 - PostgreSQL: Chosen for its relational structure and robust features.
 - RESTful API: Simplified communication between the frontend and backend.
+
+
+---
 
 ## Database: PostgreSQL
 
