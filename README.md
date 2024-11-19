@@ -39,8 +39,6 @@ A full-stack Contact management application built with React, Node.js, Express, 
    cd Erino_Contact_Management
 
 
-
-
 ### Backend Setup
 1. Navigate to the server folder:
    ```bash
@@ -57,14 +55,14 @@ A full-stack Contact management application built with React, Node.js, Express, 
 4. Set up environment variables by creating a .env file in the server directory with the following content:
    ```bash
    DB_HOST=localhost
-   DB_PORT=5000
+   DB_PORT=5432
    DB_USER=youruser
    DB_PASSWORD=yourpassword
    DB_NAME=contact_manager
 
 5. Apply the database schema to initialize the tables:
    ```bash
-   psql -U youruser -d contact_manager -f db/schema.sql
+   psql -U youruser -d contact_manager -f database/schema.sql
 
 6. Start the backend server:
    ```bash
